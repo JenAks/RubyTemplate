@@ -5,3 +5,4 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # Specify your gem's dependencies in RubyTemplate.gemspec
 gemspec
 gem "webrick", "= 1.4.4"
+gem "rake", "= 10.5.0"
